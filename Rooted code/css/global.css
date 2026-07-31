@@ -1,0 +1,43 @@
+:root {
+
+    /*colours*/
+
+    --primary-green: #B5AD64;
+    --cream: #FEFADF;
+    --dark-green: #46491C;
+    --light-teracota: #954B0C;
+    --brown: #603410;
+    --green-cream: #CBC488;
+    --green: #8F8742;
+
+    /*borders*/
+
+    --radius-small: 12px;
+    --radius-medium: 15px;
+    --radius-large: 30px;
+
+    /*fonts*/
+
+    --rooted-font: Momo signature;
+    --body-font: sans-serif;
+
+}
+
+*{
+body{
+
+}
+
+button{
+
+}
+
+input-field{
+
+}
+
+a{
+
+}
+
+}
