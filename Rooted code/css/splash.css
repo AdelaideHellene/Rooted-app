@@ -1,0 +1,76 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+  margin: 0;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center; /* Horizontal center */
+  align-items: center;     /* Vertical center */
+  background-color:#B5AD64 ;
+}
+
+#logo{
+
+    width: 326px;
+
+    height: 326px;
+
+}
+
+
+
+button{
+
+    width: 311px;
+
+    height: 71px;
+
+    border-radius: 8px;
+
+    background-color: #46491C;
+
+    font-size: 16px;
+
+    color: white;
+
+    margin-top: 25px;
+
+    text-align: center;
+
+}
+
+button:hover{
+
+    background-color: #2a2c0f;
+}
+
+main h1{
+
+    font-size: 64px;
+
+    padding: 10px;
+
+    text-align: center;
+
+    font-style: normal;
+
+    font-family: "Chicle", serif;
+
+
+
+}
+
+.chicle-regular {
+  font-family: "Chicle", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
