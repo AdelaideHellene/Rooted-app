@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/plant.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Chicle&family=DynaPuff:wght@400..700&family=Sacramento&display=swap" rel="stylesheet">
+
+    <title>Rooted - Add Plant</title>
+
+</head>
+
+
+<body>
+
+    <main>
+
+        <div class="plant-page">
+
+
+            <!-- HEADER -->
+
+            <header class="plant-header">
+
+                <h1>
+                    Add a plant
+                </h1>
+
+                <p>
+                    Tell us a little about what you're growing.
+                </p>
+
+            </header>
+
+
+
+            <!-- FORM -->
+
+            <form class="plant-form">
+
+
+                <div class="form-group">
+
+                    <label for="plant-name">
+                        Plant name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="plant-name"
+                        placeholder="e.g. Lettuce"
+                        required>
+
+                </div>
+
+
+
+                <div class="form-group">
+
+                    <label for="plant-quantity">
+                        Quantity
+                    </label>
+
+                    <input
+                        type="number"
+                        id="plant-quantity"
+                        placeholder="e.g. 5"
+                        min="1"
+                        required>
+
+                </div>
+
+
+
+                <div class="form-group">
+
+                    <label for="plant-date">
+                        Date planted
+                    </label>
+
+                    <input
+                        type="date"
+                        id="plant-date"
+                        required>
+
+                </div>
+
+
+
+                <div class="form-group">
+
+                    <label for="plant-stage">
+                        Growth stage
+                    </label>
+
+                    <select id="plant-stage">
+
+                        <option value="seed">
+                            Seed
+                        </option>
+
+                        <option value="seedling">
+                            Seedling
+                        </option>
+
+                        <option value="growing" selected>
+                            Growing
+                        </option>
+
+                        <option value="ready">
+                            Ready to harvest
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+
+                <div class="form-group">
+
+                    <label for="plant-location">
+                        Location
+                    </label>
+
+                    <input
+                        type="text"
+                        id="plant-location"
+                        placeholder="e.g. Large pot">
+
+                </div>
+
+
+
+                <div class="form-group">
+
+                    <label for="plant-notes">
+                        Notes
+                    </label>
+
+                    <textarea
+                        id="plant-notes"
+                        placeholder="Anything you want to remember..."></textarea>
+
+                </div>
+
+
+
+                <button type="submit" id="save-plant-button">
+                    Add plant
+                </button>
+
+
+            </form>
+
+
+        </div>
+
+    </main>
+
+    <script src="../js/plant.js"></script>
+
+</body>
+
+</html>

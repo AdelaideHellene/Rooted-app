@@ -1,0 +1,213 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body{
+
+    min-height: 100vh;
+
+    background-color:#f3e4a7;
+
+    font-family: Arial, sans-serif;
+
+}
+
+
+main{
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 24px;
+
+}
+
+
+.welcome{
+
+    width: 100%;
+    max-width: 500px;
+
+    min-height: 90vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+}
+
+
+.welcome-content{
+
+    width: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+}
+
+
+.welcome-content h1{
+
+    font-family: "Chicle", cursive;
+
+    font-size: 90px;
+
+    font-weight: 400;
+
+    color: #3e4205;
+
+    margin-bottom: 5px;
+
+}
+
+
+.tagline{
+
+    font-family: "DynaPuff", cursive;
+
+    font-size: 22px;
+
+    color: #3e4205;
+
+    margin-bottom: 25px;
+
+}
+
+
+.description{
+
+    max-width: 380px;
+
+    font-size: 18px;
+
+    line-height: 1.6;
+
+    color: #4A3B45;
+
+    margin-bottom: 45px;
+
+}
+
+
+.welcome-buttons{
+
+    width: 100%;
+
+    max-width: 330px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 15px;
+
+}
+
+
+.welcome-buttons button{
+
+    width: 100%;
+
+    height: 58px;
+
+    border-radius: 12px;
+
+    font-family: "DynaPuff", cursive;
+
+    font-size: 17px;
+
+    cursor: pointer;
+
+}
+
+
+#signup-button{
+
+    background-color: #B5B777;
+
+    color: #603410;
+
+    border: 2px solid #603410;
+
+}
+
+
+#signin-button{
+
+    background-color: transparent;
+
+    color: #603410;
+
+    border: 2px solid #603410;
+
+}
+
+
+/* ==========================
+   PHONE
+   ========================== */
+
+@media (max-width: 500px){
+
+    main{
+
+        padding: 20px;
+
+    }
+
+
+    .welcome{
+
+        min-height: 90vh;
+
+    }
+
+
+    .welcome-content h1{
+
+        font-size: 72px;
+
+    }
+
+
+    .tagline{
+
+        font-size: 19px;
+
+    }
+
+
+    .description{
+
+        font-size: 16px;
+
+        max-width: 320px;
+
+    }
+
+
+    .welcome-buttons{
+
+        max-width: 300px;
+
+    }
+
+}

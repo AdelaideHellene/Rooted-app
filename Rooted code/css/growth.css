@@ -1,0 +1,306 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body{
+
+    min-height: 100vh;
+
+    background-color: #CBC488;
+
+    font-family: Arial, sans-serif;
+
+}
+
+
+main{
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    padding: 30px 20px;
+
+}
+
+
+.growth-page{
+
+    width: 100%;
+
+    max-width: 500px;
+
+    min-height: 90vh;
+
+    background-color: #F7F2E8;
+
+    border-radius: 25px;
+
+    padding: 35px 25px;
+
+}
+
+
+
+/* ==========================
+   HEADER
+   ========================== */
+
+
+.growth-header{
+
+    margin-bottom: 40px;
+
+}
+
+
+.growth-header h1{
+
+    font-family: "DynaPuff", cursive;
+
+    font-size: 32px;
+
+    font-weight: 500;
+
+    color: #4A3B45;
+
+}
+
+
+.growth-header p{
+
+    margin-top: 8px;
+
+    font-size: 14px;
+
+    color: #6B625D;
+
+}
+
+
+
+/* ==========================
+   INFORMATION
+   ========================== */
+
+
+.plant-information{
+
+    display: flex;
+
+    justify-content: space-between;
+
+    gap: 15px;
+
+    padding: 20px 0;
+
+    border-top: 1px solid #C7C1AE;
+
+    border-bottom: 1px solid #C7C1AE;
+
+    margin-bottom: 40px;
+
+}
+
+
+.info-item{
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 7px;
+
+}
+
+
+.info-item span{
+
+    font-size: 11px;
+
+    letter-spacing: 1px;
+
+    color: #8A837B;
+
+}
+
+
+.info-item strong{
+
+    font-size: 14px;
+
+    font-weight: normal;
+
+    color: #4A3B45;
+
+}
+
+
+
+/* ==========================
+   GROWTH SECTION
+   ========================== */
+
+
+.section-heading{
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 20px;
+
+}
+
+
+.section-title{
+
+    font-size: 12px;
+
+    letter-spacing: 2px;
+
+    color: #6B625D;
+
+}
+
+
+#add-update-button{
+
+    border: none;
+
+    background: none;
+
+    color: #603410;
+
+    font-size: 13px;
+
+    cursor: pointer;
+
+}
+
+
+
+/* ==========================
+   EMPTY STATE
+   ========================== */
+
+
+.empty-growth{
+
+    padding: 45px 15px;
+
+    text-align: center;
+
+    border-bottom: 1px solid #C7C1AE;
+
+}
+
+
+.empty-growth p{
+
+    font-family: "DynaPuff", cursive;
+
+    font-size: 17px;
+
+    color: #4A3B45;
+
+    margin-bottom: 8px;
+
+}
+
+
+.empty-growth span{
+
+    font-size: 14px;
+
+    line-height: 1.5;
+
+    color: #8A837B;
+
+}
+
+/* ==========================
+   GROWTH UPDATES
+   ========================== */
+
+
+.growth-update{
+
+    padding: 20px 0;
+
+    border-bottom: 1px solid #C7C1AE;
+
+}
+
+
+.update-date{
+
+    font-size: 11px;
+
+    letter-spacing: 1px;
+
+    color: #8A837B;
+
+    margin-bottom: 8px;
+
+}
+
+
+.growth-update h3{
+
+    font-family: "DynaPuff", cursive;
+
+    font-size: 17px;
+
+    font-weight: 500;
+
+    color: #4A3B45;
+
+    margin-bottom: 8px;
+
+}
+
+
+.update-height{
+
+    font-size: 14px;
+
+    color: #603410;
+
+    margin-bottom: 6px;
+
+}
+
+
+.update-notes{
+
+    font-size: 14px;
+
+    line-height: 1.5;
+
+    color: #6B625D;
+
+}
+
+.update-photo{
+
+    width: 100%;
+
+    max-height: 300px;
+
+    object-fit: cover;
+
+    border-radius: 15px;
+
+    margin-top: 15px;
+
+}
