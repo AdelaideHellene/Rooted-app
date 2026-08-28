@@ -1,0 +1,237 @@
+/* ==========================
+   GENERAL STYLE
+========================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #CBC488;
+
+    font-family: Arial, sans-serif;
+
+    color: #4A3B45;
+}
+
+
+/* ==========================
+   MAIN
+========================== */
+
+main {
+    width: 100%;
+    padding: 20px;
+}
+
+
+/* ==========================
+   LOGIN CONTAINER
+========================== */
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+
+    margin: 0 auto;
+
+    padding: 40px 30px;
+
+    background-color: #FFFCF4;
+
+    border-radius: 25px;
+
+    box-shadow: 0 8px 25px rgba(74, 59, 69, 0.15);
+}
+
+
+/* ==========================
+   HEADING
+========================== */
+
+.login-heading {
+    text-align: center;
+
+    margin-bottom: 30px;
+}
+
+
+.login-heading h1 {
+    font-family: "Sacramento", cursive;
+
+    font-size: 55px;
+
+    margin-bottom: 5px;
+}
+
+
+.login-heading h2 {
+    font-family: "DynaPuff", cursive;
+
+    font-size: 24px;
+
+    margin-bottom: 10px;
+}
+
+
+.login-heading p {
+    font-size: 15px;
+
+    line-height: 1.5;
+}
+
+
+/* ==========================
+   FORM
+========================== */
+
+.login-form {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+
+.form-group {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 8px;
+}
+
+
+.form-group label {
+    font-family: "DynaPuff", cursive;
+
+    font-size: 14px;
+}
+
+
+.form-group input {
+    width: 100%;
+
+    padding: 13px 15px;
+
+    border: 2px solid #CBC488;
+
+    border-radius: 12px;
+
+    background-color: white;
+
+    font-size: 15px;
+
+    color: #4A3B45;
+
+    outline: none;
+}
+
+
+.form-group input:focus {
+    border-color: #8C895B;
+}
+
+
+/* ==========================
+   LOGIN BUTTON
+========================== */
+
+.login-form button {
+    margin-top: 5px;
+
+    padding: 14px;
+
+    border: none;
+
+    border-radius: 15px;
+
+    background-color: #4A3B45;
+
+    color: white;
+
+    font-family: "DynaPuff", cursive;
+
+    font-size: 15px;
+
+    cursor: pointer;
+
+    transition: transform 0.2s ease;
+}
+
+
+.login-form button:hover {
+    transform: translateY(-2px);
+}
+
+
+.login-form button:active {
+    transform: translateY(0);
+}
+
+
+/* ==========================
+   SIGNUP LINK
+========================== */
+
+.signup-link {
+    margin-top: 25px;
+
+    text-align: center;
+
+    font-size: 14px;
+}
+
+
+.signup-link a {
+    color: #4A3B45;
+
+    font-weight: bold;
+
+    text-decoration: none;
+}
+
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
+
+
+/* ==========================
+   MOBILE
+========================== */
+
+@media (max-width: 480px) {
+
+    main {
+        padding: 15px;
+    }
+
+
+    .login-container {
+        padding: 35px 22px;
+
+        border-radius: 22px;
+    }
+
+
+    .login-heading h1 {
+        font-size: 50px;
+    }
+
+
+    .login-heading h2 {
+        font-size: 21px;
+    }
+
+}

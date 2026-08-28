@@ -270,3 +270,43 @@ main{
     border-radius: 15px;
 
 }
+
+#back-button {
+
+    display: inline-block;
+
+    margin-bottom: 20px;
+
+    padding: 8px 16px;
+
+    border: none;
+
+    border-radius: 20px;
+
+    background-color: transparent;
+
+    color: #6F5D3E;
+
+    font-family: "DynaPuff", sans-serif;
+
+    font-size: 13px;
+
+    cursor: pointer;
+
+    transition: all 0.2s ease;
+
+}
+
+
+#back-button:hover {
+
+    background-color: rgba(111, 93, 62, 0.1);
+
+}
+
+
+#back-button:active {
+
+    transform: scale(0.96);
+
+}

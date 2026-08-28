@@ -1,5 +1,10 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/12.18.0/firebase-app.js";
 
+import {
+    getFirestore
+} from "https://www.gstatic.com/firebasejs/12.18.0/firebase-firestore.js";
+
+
 const firebaseConfig = {
     apiKey: "AIzaSyB2sfH1cQv6H8LCKzbUawhQg_itA071lQU",
     authDomain: "rooted-4b15b.firebaseapp.com",
@@ -9,6 +14,10 @@ const firebaseConfig = {
     appId: "1:983787619185:web:ede50dc4bea9d97527acd0"
 };
 
+
 const app = initializeApp(firebaseConfig);
 
-export { app };
+const db = getFirestore(app);
+
+
+export { app, db };
