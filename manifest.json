@@ -1,0 +1,15 @@
+{
+    "name": "Rooted",
+    "short_name": "Rooted",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#354528",
+    "theme_color": "#354528",
+    "icons": [
+        {
+            "src": "images/app-logo.png",
+            "sizes": "2048x2048",
+            "type": "image/png"
+        }
+    ]
+}
